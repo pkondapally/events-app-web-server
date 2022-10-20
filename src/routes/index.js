@@ -5,6 +5,7 @@ const router = express.Router();
 const axios = require('axios');
 const {renderError} = require('../helpers/error-handler.helper');
 
+
 const apiServer = process.env.API_SERVER;
 
 /* GET home page. */
